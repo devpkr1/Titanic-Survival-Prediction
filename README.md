@@ -47,14 +47,18 @@ The following transformations and feature engineering techniques were applied:
 ## Model Building
 Various machine learning models were tested, including:
 - Logistic Regression
-- Decision Trees
 - Random Forest
-- Support Vector Machines (SVM)
+- XGBoost
+- CatBoost
+- MLP Classifier
+
+Hyperparameter tuning was performed to optimize model performance. The Random Forest Classifier (after resampling) provided the most accurate and balanced predictions.
+
 
 Hyperparameter tuning was performed to optimize model performance.
 
 ## Model Evaluation
-The best-performing model achieved an accuracy score of **0.77** on Kaggle.
+The best-performing model achieved an accuracy score of **0.77** on Kaggle. The Random Forest Classifier (Resampled) was finalized as the best model based on evaluation metrics.
 ### Evaluation Metrics
 - Accuracy
 - Confusion Matrix
@@ -91,4 +95,3 @@ A final submission was made to Kaggle, achieving a prediction score of **0.77**.
 - Data Science Community for continuous learning and support.
 
 Feel free to provide suggestions or report any issues in the repository.
-
