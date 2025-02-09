@@ -1,4 +1,4 @@
-# Titanic Survival Analysis
+# Titanic Survival Prediction
 
 This project involves analyzing the famous Titanic dataset to predict passenger survival using various machine learning models. The goal was to achieve the highest prediction accuracy possible.
 
@@ -12,6 +12,8 @@ This project involves analyzing the famous Titanic dataset to predict passenger 
 - [Kaggle Submission](#kaggle-submission)
 - [Conclusion](#conclusion)
 - [How to Run the Project](#how-to-run-the-project)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
 ## Project Overview
 The Titanic Survival Analysis project aimed to predict whether a passenger survived the disaster using features such as age, gender, ticket class, and other attributes. The analysis includes EDA, feature engineering, model building, and evaluation.
@@ -60,9 +62,17 @@ Hyperparameter tuning was performed to optimize model performance.
 ## Model Evaluation
 The best-performing model achieved an accuracy score of **0.77** on Kaggle. The Random Forest Classifier (Resampled) was finalized as the best model based on evaluation metrics.
 ### Evaluation Metrics
-- Accuracy
-- Confusion Matrix
-- ROC-AUC Curve
+- **Metrics Table for comparison (`Accuracy`, `Precision` and `Recall`)**
+
+   ![metrics table](metrics-table.png)
+
+- **Confusion Matrix**
+
+   ![confusion matrices](confusion-matrices.png)
+
+- **ROC-AUC Curve for best performing model**
+
+   ![roc-auc-curve](roc-auc-curve.png)
 
 ## Kaggle Submission
 A final submission was made to Kaggle, achieving a prediction score of **0.77**.
@@ -94,4 +104,5 @@ A final submission was made to Kaggle, achieving a prediction score of **0.77**.
 - [Kaggle](https://www.kaggle.com/) for providing the Titanic dataset.
 - Data Science Community for continuous learning and support.
 
-Feel free to provide suggestions or report any issues in the repository.
+## License
+- This project is licensed under the MIT License. See the LICENSE file for more information.
