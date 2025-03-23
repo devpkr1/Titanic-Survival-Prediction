@@ -99,6 +99,8 @@ A final submission was made to Kaggle, achieving a prediction score of **0.77**.
    ```bash
    jupyter notebook Titanic_Survival_Analysis.ipynb
    ```
+## Live App
+**App Link:-** [Click Here](https://pkr1234-titanic-survival-prediction.hf.space)
 
 ## Acknowledgments
 - [Kaggle](https://www.kaggle.com/) for providing the Titanic dataset.
